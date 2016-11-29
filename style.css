@@ -14,12 +14,24 @@
    -webkit-box-shadow: none;
  position:absolute; }
 
+.nav .navbar-nav li {
+  color: #ffffff;
+}
+.collapse .navbar-collapse {
+  color:#ffffff;
+  font-weight: bold;
+}
 .navbar-header {
   color:#ffffff;
   font-weight: bold;
   font-size: 12px;
 }
-
+.navbar-header h1{
+    font-family: helvetica, arial, sans-serif;
+}
+.navbar .navbar-nav li a {
+  color: #ffffff;
+}
 img { max-width:100%; }
 
 a {
@@ -60,11 +72,17 @@ body{
     text-transform: uppercase;
 }
 
-.page-header h3 {
-    line-height: 0.88rem;
-    color: #000;
+.page-header h2 {
+    font-family: helvetica, arial, sans-serif;
+text-align: center;
+text-transform: lowercase;
+color: black;
 }
 
+.page-header h2 strong {
+  text-align:center;
+  color: #8B0000;
+}
 ul.thumbnails {
     margin-bottom: 0px;
 }
